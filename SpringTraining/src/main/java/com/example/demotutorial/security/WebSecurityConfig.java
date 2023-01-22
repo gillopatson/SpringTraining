@@ -65,7 +65,7 @@ public class WebSecurityConfig{
                             .requestMatchers("/departments/**").permitAll();
                 });
 
-
+//--------
         http.authenticationProvider(authenticationProvider());
 
         http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
