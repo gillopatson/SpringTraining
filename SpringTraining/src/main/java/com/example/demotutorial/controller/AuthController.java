@@ -40,7 +40,7 @@ public class AuthController {
 
     @Autowired
     UserRepository userRepository;
-
+//bonjour
     @Autowired
     RoleRepository roleRepository;
 
